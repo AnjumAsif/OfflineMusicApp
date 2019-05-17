@@ -2,4 +2,5 @@
     <string name="app_name">FetchSongsFromDevice</string>
     <string name="songs_title">All Songs</string>
     <string name="album_title">Albums</string>
+    <string name="artist_title">Artist</string>
 </resources>

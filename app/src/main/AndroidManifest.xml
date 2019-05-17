@@ -26,6 +26,9 @@
         <activity
             android:name=".ui.AlbumActivity"
             android:label="@string/album_title"/>
+        <activity
+            android:name=".ui.ArtistActivity"
+            android:label="@string/artist_title"/>
     </application>
 
 </manifest>

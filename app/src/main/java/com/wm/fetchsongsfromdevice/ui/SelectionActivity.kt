@@ -17,5 +17,8 @@ class SelectionActivity : AppCompatActivity() {
         button_album.setOnClickListener {
             startActivity(Intent(this@SelectionActivity, AlbumActivity::class.java))
         }
+        button_artist.setOnClickListener {
+            startActivity(Intent(this@SelectionActivity, ArtistActivity::class.java))
+        }
     }
 }
