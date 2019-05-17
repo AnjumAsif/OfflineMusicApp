@@ -31,6 +31,8 @@ internal class AlbumAdapter(private val context: Context, private val listOfAlbu
 
 
 
+
+
     class ViewHolderAlbum(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var albumTitle: TextView = itemView.findViewById(R.id.textViewTitle)
         var albumArtist: TextView = itemView.findViewById(R.id.textViewArtist)
