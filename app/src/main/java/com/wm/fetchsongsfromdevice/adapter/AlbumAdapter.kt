@@ -29,10 +29,6 @@ internal class AlbumAdapter(private val context: Context, private val listOfAlbu
         getAlbumArt(listOfAlbums[position].albumId,holder)
     }
 
-
-
-
-
     class ViewHolderAlbum(itemView: View) : RecyclerView.ViewHolder(itemView) {
         var albumTitle: TextView = itemView.findViewById(R.id.textViewTitle)
         var albumArtist: TextView = itemView.findViewById(R.id.textViewArtist)
@@ -40,8 +36,6 @@ internal class AlbumAdapter(private val context: Context, private val listOfAlbu
     }
     private fun getAlbumArt(album_id: Long?, holder: ViewHolderAlbum){
         val bm: Bitmap
-
-
         try {
             val sArtworkUri = Uri
                     .parse("content://media/external/audio/albumart")
